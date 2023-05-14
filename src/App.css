@@ -1,0 +1,273 @@
+body{
+background-color: #304b6c;
+font-family: 'Open Sans', sans-serif;
+font-weight: 500;
+}
+
+.container{
+  background-color: #0c2543 ;
+  margin: auto 80px 110px 80px;
+  padding-bottom: 20px;
+  box-shadow: 2px 7px 12px rgb(16, 16, 16);
+  width: 1280px;
+  border-width: 1px;
+  border-color: rgb(9, 16, 48);
+  border-style: solid;
+  border-radius: 0 0 10px 10px;
+  border-top-style: none;
+  border-right-style: solid;
+  border-bottom-style: solid;
+  border-left-style: solid;
+}
+
+
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+
+/* Top Section */
+.top-bar{
+  background-color: rgb(21, 42, 69);
+  height: 110px;
+  width: 1280px;
+  margin-left: 80px;
+  margin-right: 80px;
+  margin-top: 45px;
+  padding-top: 10px;
+  text-align: left;
+  color: white;
+  font-size: 15px;
+  box-shadow: 2px 7px 12px rgb(16, 16, 16);
+  border-top-style: solid;
+  border-right-style: solid;
+  border-bottom-style: solid;
+  border-left-style: solid;
+  border-width: 1px;
+  border-color: rgb(9, 16, 48);
+  border-style: solid;
+  border-radius: 10px 10px 0 0;
+}
+
+h1{
+  margin-left: 50px;
+  font-size: 40px;
+  font-weight: 600;
+}
+
+p{
+  margin-left: 50px;
+}
+
+
+/* Left Container */
+
+.left-container{
+  margin-left: 40px;
+  flex: 30%;
+
+}
+
+.textbox{
+  width: 400px;
+  border-radius: 5px;
+  border-style: solid;
+  border-width: 2px;
+  border-color: rgb(1, 22, 52);
+  background-color : #000a2c; 
+  color: white;
+}
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: rgb(181, 181, 181);
+  opacity: 1; /* Firefox */
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+  color: rgb(181, 181, 181);
+}
+
+::-ms-input-placeholder { /* Microsoft Edge */
+  color: rgb(181, 181, 181);
+}
+
+.alert{
+  margin-left: 20px;
+
+}
+
+.label{
+  font-size: 1rem;
+  color: rgb(81, 146, 211);
+}
+
+.margin-top{
+  margin-top: 15px;
+}
+
+.btn{
+  font-weight: 500;
+  margin-top: 30px;
+}
+
+/* Right Container */
+
+.right-container{
+  margin: 50px 50px 50px 20px;
+  background-color: rgb(21, 42, 69);
+  color: white;
+  box-shadow: 0px 1px 10px rgb(16, 16, 16);
+  flex: 40%;
+}
+
+.output{
+  margin: 65px 50px 50px 50px;
+  text-align: center;
+}
+
+.monthly{
+  margin-top: 50px;
+}
+
+.amount{
+  margin-right: 40px;
+  margin-top: 20px;
+  font-size: 5.5rem;
+  color: rgb(86, 151, 255);
+}
+
+.output-bottom{
+  margin-top: 45px;
+}
+
+.totalCost{
+  margin-top: 30px;
+}
+
+.totalcost-text{
+  font-size: 50px;
+  font-weight: 600;
+}
+
+.totalcost-title{
+  color: rgb(86, 151, 255);
+  font-size: 25px;
+}
+
+/* Responsive */
+
+@media screen and (min-device-width: 100px) and (max-device-width: 413px){
+  .flex-item-right, .flex-item-left {
+    flex: 100%;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .top-bar{
+    width: 720px;
+  }
+
+  body{
+    zoom: 1.1;
+  }
+}
+
+@media screen and (min-device-width: 414px) and (max-device-width: 767px){
+  .flex-item-right, .flex-item-left {
+    flex: 100%;
+    flex-direction: column;
+    align-items: center;
+  }
+  .top-bar{
+    width: 720px;
+  }
+  body{
+    zoom: 1.1;
+  }
+}
+@media screen and (min-device-width: 768px) and (max-device-width: 1000px){
+  .flex-item-right, .flex-item-left {
+    flex: 100%;
+    flex-direction: column;
+    align-items: center;
+  }
+  .top-bar{
+    width: 720px;
+  }
+
+  body{
+    zoom: 1.1;
+  }
+}
+
+@media screen and (min-device-width: 1001px) and (max-device-width: 1279px){
+  .flex-item-right, .flex-item-left {
+    flex: 100%;
+    flex-direction: column;
+    align-items: center;
+  }
+  .top-bar{
+    width: 960px;
+  }
+
+  body{
+    zoom: 0.9;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media screen and (min-device-width: 1280px) and (max-device-width: 1439px){
+  .flex-item-right, .flex-item-left {
+    flex: 100%;
+    flex-direction: column;
+  }
+  .top-bar{
+    width: 1139px;
+  }
+
+  body{
+    zoom: 0.9;
+    margin-left: 4%;
+    margin-right: auto;
+  }
+
+}
+
+
+
+/* Slider */
+
+
+.slider{
+ margin: 10px auto 30px 1px;
+}
+
+.loan-period{
+  color: rgb(225, 225, 225);
+  margin-bottom: 15px;
+  margin-top: 5px;
+}
+
+#range{
+  width: 300px;
+
+}
+input[type="range"]::-webkit-slider-thumb{
+  width: 2rem ;
+}
+
+.one{
+  right: 297px;
+  color: white;
+  position: relative;
+  top: 17px;
+}
+
+.nine{
+  right:18px;
+  color: white;
+  position: relative;
+  top: 17px;
+}

@@ -49,7 +49,7 @@ function LoanCalculator(){
     };
 
     return(
-        <div>
+        <div className="all">
         <div className="top-bar">
         <h1>Car Loan Calculator</h1>
         <p>Find out your dream car's monthly payment by filling in the info below.</p> 
@@ -66,7 +66,7 @@ function LoanCalculator(){
         <button type="button" className="btn-success btn col-6 btn-lg" onClick={handleClick}>Calculate</button>
         { required ? <span class="alert alert-danger" role="alert">Fill in all info to calculate.</span> : null }
         </form>
-  
+
         </div> 
         <div className="flex-item-right right-container">
         <div className="output">

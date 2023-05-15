@@ -64,7 +64,7 @@ function LoanCalculator(){
         </div>
         <TextArea key="IR" id="IR" title="Interest Rate (%)"name="IR" placeholder="2.88" value={interestRate} func={handleIR} />
         <button type="button" className="btn-success btn col-6 btn-lg" onClick={handleClick}>Calculate</button>
-        { required ? <span class="alert alert-danger" role="alert">Fill in all info to calculate.</span> : null }
+        { required ? <div class="alert alert-danger" role="alert">Fill in all info to calculate.</div> : null }
         </form>
 
         </div> 

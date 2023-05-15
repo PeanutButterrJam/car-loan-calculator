@@ -156,6 +156,7 @@ body{
   .totalcost-text{
     font-size: 50px;
     font-weight: 600;
+    margin-bottom: 10px;
   }
   
   .totalcost-title{

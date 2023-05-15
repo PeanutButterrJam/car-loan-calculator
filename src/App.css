@@ -186,7 +186,7 @@ body{
   
     p{
       margin-left: 30px;
-      font-size: 100%;
+      font-size: 90%;
 
     }
     body{
@@ -239,6 +239,10 @@ body{
     ::-ms-input-placeholder { /* Microsoft Edge */
       font-size: 2rem;
     }
+
+    .loan-period{
+      font-size: 3rem;
+    }
     
   }
   
@@ -262,7 +266,7 @@ body{
   
     p{
       margin-left: 20px;
-      font-size: 100%;
+      font-size: 90%;
 
     }
     body{
@@ -389,6 +393,10 @@ body{
     ::-ms-input-placeholder { /* Microsoft Edge */
       font-size: 2rem;
     }
+
+    .loan-period{
+      font-size: 3rem;
+    }
   
   }
   
@@ -472,6 +480,10 @@ body{
     ::-ms-input-placeholder { /* Microsoft Edge */
       font-size: 2.5rem;
     }
+
+    .loan-period{
+      font-size: 3.5rem;
+    }
   
   }
   
@@ -553,6 +565,11 @@ body{
     ::-ms-input-placeholder { /* Microsoft Edge */
       font-size: 2.5rem;
     }
+
+    .loan-period{
+      font-size: 3.5rem;
+    }
+
   
   
   }

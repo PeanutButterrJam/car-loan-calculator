@@ -168,6 +168,8 @@ p{
     width: 520px;
     zoom: 1.38;
     margin-left: 58px;
+    height: 60px;
+    padding-bottom: 0px;
   }
 
   h1{
@@ -220,7 +222,7 @@ p{
     width: 520px;
     zoom: 1.38;
     margin-left: 58px;
-    height: 30px
+    height: 60px
   }
 
   h1{

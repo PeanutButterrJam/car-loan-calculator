@@ -75,10 +75,11 @@ function LoanCalculator(){
         <h1 className="amount">RM{payment}</h1>
         </div>
         <div className="output-bottom">
-        <hr />
+        <hr/>
         <div className="totalCost">
         <h3 className="totalcost-title">Total Cost</h3>
         <h3 className="totalcost-text">RM{totalCost}</h3>
+        <p>*This amount is only a guide. Results vary according to different financial institutions.</p>
         </div>
         </div>
         </div>

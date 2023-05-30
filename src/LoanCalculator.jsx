@@ -31,7 +31,7 @@ function LoanCalculator(){
     };
 
     function handleClick(e){
-        if (carPrice > 1 && downPayment > 1 && interestRate >1 ){
+        if (carPrice >=1 && downPayment >=0 && interestRate >=1 ){
             setRequired (false);
             const loanAmount = carPrice-downPayment;
             const interestAmount = (loanAmount*(interestRate/100))*loanPeriod
